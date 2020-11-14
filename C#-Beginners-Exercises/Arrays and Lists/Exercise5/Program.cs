@@ -15,28 +15,28 @@ namespace Exercise5
 
                 int[] serialNumbersArray = new int[serialNumbersStrArray.Length]; // => [ , , , ]
 
-                    for (int i = 0; i < serialNumbersArray.Length; i++)
-                    {
-                        serialNumbersArray[i] = Int32.Parse(serialNumbersStrArray[i]); // [6,10,5,4]
-                    }
+                for (int i = 0; i < serialNumbersArray.Length; i++)
+                {
+                    serialNumbersArray[i] = Int32.Parse(serialNumbersStrArray[i]); // [6,10,5,4]
+                }
 
-                    if (serialNumbersArray.Length < 5 || serialNumbersArray.Length == 0 || serialNumbersArray.Length > 5 )
-                    {
-                        Console.WriteLine("Invalid List, try again");
-                        continue;
-                    } 
-                    else
-                    {
-                        Array.Sort(serialNumbersArray);
-                        
-                        for (var j=0; j<3; j++)
-                        {
-                        Console.WriteLine(serialNumbersArray[j]);
-                        break;
-                        }
-                        
-                    }
-
+                if (serialNumbersArray.Length < 5)
+                {
+                    Console.WriteLine("Invalid List, try again");
+                } 
+                else
+                {
+                    Array.Sort(serialNumbersArray);
+                    var numbers = new List<int>() { 
+                        serialNumbersArray[0], 
+                        serialNumbersArray[1], 
+                        serialNumbersArray[2] 
+                    };
+                    string result = String.Join(",", numbers);
+                    Console.WriteLine(result);
+                    break;
+                }
+                
             }
         }
     }

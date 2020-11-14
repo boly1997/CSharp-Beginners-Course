@@ -8,19 +8,24 @@ namespace Exercise2
         {
             Console.WriteLine("Enter your name:");
             string name = Console.ReadLine();
+            int x = name.Length;
 
-            var arrayName = new string[1] { name };
-            Array.Reverse(arrayName);
-
-            foreach(var nombre in arrayName)
+            // char[] letters = name.toCharArray();
+            char[] letters = new char[x]; 
+            for (var i=0; i<x; i++)
             {
-                Console.WriteLine(nombre);
+                letters[i] = name[i];
             }
+            Array.Reverse(letters);
 
-            string reverseName = arrayName[0];
-            Console.WriteLine(reverseName);
-
-
+            // string reversed = new string(letters);
+            string reversed = "";
+            for (var i = 0; i < x; i++)
+            {
+                reversed += letters[i];
+            }
+            
+            Console.WriteLine(reversed);
         }
     }
 }

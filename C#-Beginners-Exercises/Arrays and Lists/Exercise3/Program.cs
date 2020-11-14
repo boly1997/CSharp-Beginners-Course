@@ -7,32 +7,32 @@ namespace Exercise3
     {
         static void Main(string[] args)
         {
-            while  (true)
+            var numbers = new List<int>();
+
+            while (true)
             {
                 Console.WriteLine("Enter a number:");
                 string numero = Console.ReadLine();
                 var number = Convert.ToInt32(numero);
-                var numbers = new List<int>();
 
                 if (numbers.Contains(number))
                 {
                     Console.WriteLine("ERROR, number already typed, please retry");
-                    continue;
                 } 
-                else if (numbers.Count == 5)
-                {
-                    numbers.Sort();
-                    foreach (var numberOnTheList in numbers)
-                    {
-                        Console.WriteLine(numberOnTheList);
-                        break;
-                    }
-                }
                 else
                 {
                     numbers.Add(number);
-                    Console.WriteLine(numbers.Count);
-                    continue;
+                    if (numbers.Count == 5)
+                    {
+                        numbers.Sort(); // [1, 2, 3, 4, 5] => "1, 2, 3, 4, 5"
+                        string sortedNumbers = String.Join(",", numbers);
+                        // foreach (var numberOnTheList in numbers)
+                        // {
+                        //     sortedNumbers += numberOnTheList.ToString() + ", ";
+                        // }
+                        Console.WriteLine(sortedNumbers);
+                        break;
+                    }
                 }
             }
         }
