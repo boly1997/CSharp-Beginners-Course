@@ -1,0 +1,13 @@
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.exe
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.deps.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.runtimeconfig.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.runtimeconfig.dev.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.dll
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\bin\Debug\netcoreapp3.1\DateTime Course.pdb
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.csprojAssemblyReference.cache
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.AssemblyInfoInputs.cache
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.AssemblyInfo.cs
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.csproj.CoreCompileInputs.cache
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.dll
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.pdb
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\DateTime Course\obj\Debug\netcoreapp3.1\DateTime Course.genruntimeconfig.cache

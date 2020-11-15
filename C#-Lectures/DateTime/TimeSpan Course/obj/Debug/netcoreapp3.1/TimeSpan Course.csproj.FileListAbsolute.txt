@@ -1,0 +1,12 @@
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.exe
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.deps.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.runtimeconfig.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.runtimeconfig.dev.json
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.dll
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\bin\Debug\netcoreapp3.1\TimeSpan Course.pdb
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.AssemblyInfoInputs.cache
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.AssemblyInfo.cs
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.csproj.CoreCompileInputs.cache
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.dll
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.pdb
+C:\Users\boly1\Documents\UABC BOLY\11er Semestre\GAUG\C#\Udemy\CSharp-Beginners-Course\C#-Lectures\DateTime\TimeSpan Course\obj\Debug\netcoreapp3.1\TimeSpan Course.genruntimeconfig.cache
