@@ -18,15 +18,17 @@ namespace Exercise3
                 var hoursInt = new int[1] { Convert.ToInt32(hoursAndMinutes[0]) };
                 var minutesInt = new int[1] { Convert.ToInt32(hoursAndMinutes[1]) };
 
-                if (hoursInt[0] >= 00 || hoursInt[0] <= 23)
+                if (hoursInt[0] >= 00 && hoursInt[0] <= 23 && minutesInt[0] >= 00 && minutesInt[0] <= 59)
                 {
-                    if (minutesInt[0] >= 00 || minutesInt[0] <= 59)
-                    {
-                        Console.WriteLine("ALL ITS ALRIGHT");
-                    } else
-                        Console.WriteLine("Invalid input");
+                    Console.WriteLine("ALL ITS ALRIGHT");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input");
+
                 }
             }
+
         }
     }
 }
