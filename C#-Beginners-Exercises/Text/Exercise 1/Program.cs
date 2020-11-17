@@ -6,30 +6,19 @@ namespace Exercise_1
 {
     class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             Console.WriteLine("Enter your numbers separated by a Hypehn:");
             
             string numbersWithHyphen = Console.ReadLine(); //("5-6-7-8")
-            
-            string[] arrayOfNumbersString = numbersWithHyphen.Split("-"); //["5","6","7","8"]
-            
-            int size = arrayOfNumbersString.Length;
 
-           // int[] arrayofNumbers = new int[size]; 
-            var arrayOfNumbers = new List<int>();
+            List <int> arrayOfNumbers = convertNumStrToList(numbersWithHyphen);
 
-            for (int i= 0; i<size; i++)
-            {
-                arrayOfNumbers.Add(Int32.Parse(arrayOfNumbersString[i]));
-                //arrayofNumbers[i] = Int32.Parse(arrayOfNumbersString[i]);
-            }
-
-            for (int i = 0; i < (size-1); i++) //[1,2,3]
+            for (int i = 0; i < ((arrayOfNumbers.Count)-1); i++) //[1,2,3]
             {
                 if ((arrayOfNumbers[i+1] - arrayOfNumbers[i]) == 1 || (arrayOfNumbers[i] - arrayOfNumbers[i+1]) == 1)
                 {
-                    if (i == (size - 2))
+                    if (i == (arrayOfNumbers.Count - 2))
                     {
                         Console.WriteLine("Your numbers ARE Consecutive");
                         
@@ -39,10 +28,29 @@ namespace Exercise_1
                 else
                 {
                     Console.WriteLine("Your numbers are not Consecutive");
+                    break;
                 }
             }
-
-
         }
+
+        public static List<int> convertNumStrToList (string numbersWithHyphen)
+        {
+            string[] arrayOfNumbersString = numbersWithHyphen.Split("-"); //["5","6","7","8"]
+
+            int size = arrayOfNumbersString.Length;
+
+            // int[] arrayofNumbers = new int[size]; 
+            var arrayOfNumbers = new List<int>();
+
+            for (int i = 0; i < size; i++)
+            {
+                arrayOfNumbers.Add(Int32.Parse(arrayOfNumbersString[i]));
+                //arrayofNumbers[i] = Int32.Parse(arrayOfNumbersString[i]);
+            }
+
+            return arrayOfNumbers;
+        }
+
+
     }
 }
