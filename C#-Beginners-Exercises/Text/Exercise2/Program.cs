@@ -5,7 +5,7 @@ namespace Exercise2
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Enter your numbers separated by a Hypehn:");
 
@@ -17,29 +17,18 @@ namespace Exercise2
             }
             else
             {
-                string[] arrayOfNumbersString = numbersWithHyphen.Split("-"); //["5","6","7","8"]
+                List<int> arrayOfNumbers = convertNumStrToList(numbersWithHyphen);
 
-                int size = arrayOfNumbersString.Length;
-
-                var arrayOfNumbers = new List<int>();
-
-                for (int i = 0; i < size; i++)
+                for (var i=1; i<(arrayOfNumbers.Count); i++)
                 {
-                    arrayOfNumbers.Add(Int32.Parse(arrayOfNumbersString[i]));
-                }
-
-                int reference = arrayOfNumbers[0];
-
-                for(var i=1; i<(size); i++)
-                {
-                    if (arrayOfNumbers[i] == reference)
+                    if (arrayOfNumbers[i] == arrayOfNumbers[0])
                     {
                         Console.WriteLine("Your List have a duplicate");
                         break;
                     }
 
                     else
-                        if (i == (size - 1))
+                        if (i == (arrayOfNumbers.Count - 1))
                     {
                         Console.WriteLine("Your list DOESNT HAVE A DUPLICATE");
                     }
@@ -49,5 +38,19 @@ namespace Exercise2
             }
 
         }
+        public static List<int> convertNumStrToList(string numbersWithHyphen)
+        {
+            string[] arrayOfNumbersString = numbersWithHyphen.Split("-"); //["5","6","7","8"]
+
+            var arrayOfNumbers = new List<int>();
+
+            for (int i = 0; i < arrayOfNumbersString.Length; i++)
+            {
+                arrayOfNumbers.Add(Int32.Parse(arrayOfNumbersString[i]));
+            }
+
+            return arrayOfNumbers;
+        }
     }
+    
 }
